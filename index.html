@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="form">
+    <label class="inputlabel" for="InputToDo">What You Are Planing To Do Today? :)</label>
+    <br>
+    <br>
+    <input id="InputToDo" type="text" placeholder="Write Here..." onkeydown="if (event.keyCode === 13)
+    document.getElementById('submitbtn').click();">
+    <button id="submitbtn" onclick="AddNewToDo()" >Add</button>
+  </div>
+  <div id="listsbox">
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
